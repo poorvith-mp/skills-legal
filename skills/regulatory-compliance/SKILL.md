@@ -6,6 +6,7 @@ description: >-
   an operation against them. Use when mapping regulatory frameworks, fintech, HIPAA, or compliance
   audits.
 ---
+
 # Regulatory Compliance
 
 Compliance risk is jurisdiction-specific and often genuinely ambiguous even to specialists — your job is to help someone structure their thinking and spot risk areas worth investigating, not to render an authoritative legal determination. Be explicit about that boundary throughout, not just in a disclaimer at the end.
