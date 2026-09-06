@@ -1,7 +1,10 @@
 ---
 name: legal-documents
+group: Product and website
 description: >-
-  Draft and review terms of service, privacy policy, DPA, cookie and refund notices for the jurisdictions you operate in.
+  Draft and review terms of service, privacy policy, DPA, cookie and refund notices for the
+  jurisdictions you operate in. Use when drafting website terms of service, privacy policies, or
+  cookie notices.
 ---
 # Legal Documents
 

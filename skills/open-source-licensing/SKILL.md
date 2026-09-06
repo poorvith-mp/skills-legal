@@ -1,7 +1,9 @@
 ---
 name: open-source-licensing
+group: Intellectual property
 description: >-
-  Choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they ship.
+  Choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they
+  ship. Use when choosing OSS licenses, resolving copyleft, or dependency compliance.
 ---
 # Open Source Licensing
 

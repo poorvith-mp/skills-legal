@@ -1,7 +1,9 @@
 ---
 name: contract-drafting
+group: Contracts
 description: >-
-  Draft the agreements a small company signs: NDA, MSA, SOW, contractor and consulting terms.
+  Draft the agreements a small company signs: NDA, MSA, SOW, contractor and consulting terms. Use
+  when drafting NDAs, MSAs, Statements of Work, or consulting agreements.
 ---
 # Contract Drafting
 

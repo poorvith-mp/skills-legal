@@ -1,7 +1,16 @@
 should_fire:
-  - "help with contract review"
-  - "read someone else's paper"
-  - "run contract-review workflow"
+  - 'review this SaaS vendor contract and flag unfair indemnification or liability clauses'
+  - 'redline this Master Services Agreement to protect our intellectual property rights'
+  - 'what are the business risks in this non-standard limitation of liability clause'
+  - 'explain what this complex governing law and dispute resolution clause means in plain English'
+  - 'check this confidentiality agreement (NDA) for overly broad non-compete provisions'
+  - 'identify hidden auto-renewal and early termination penalty clauses in this vendor contract'
+  - 'propose safer compromise wording for this unilateral indemnity requirement'
+  - 'audit this customer contract to ensure our warranty obligations are reasonably capped'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'draft a brand new Master Services Agreement from scratch'
+    expect: 'contract-drafting'
+  - prompt: 'negotiate pricing concessions and payment terms with sales procurement'
+    expect: 'negotiation'
+  - prompt: 'draft standard website terms of service and privacy policy'
+    expect: 'legal-documents'

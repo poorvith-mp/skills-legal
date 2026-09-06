@@ -1,7 +1,16 @@
 should_fire:
-  - "help with legal documents"
-  - "draft and review terms of service, privacy policy, dpa, cookie and refund notices for the jurisdictions you operate in."
-  - "run legal-documents workflow"
+  - 'draft comprehensive Terms of Service (ToS) for our new B2B SaaS web application'
+  - 'create a GDPR and CCPA compliant website Privacy Policy disclosing tracking cookies'
+  - 'author a Data Processing Agreement (DPA) with standard contractual clauses for customers'
+  - 'draft a clear, user-friendly refund and subscription cancellation policy'
+  - 'write cookie banner disclosure notices and opt-in consent mechanisms'
+  - 'draft acceptable use policies prohibiting illegal or abusive activities on our platform'
+  - 'update our website terms to account for user-generated content and DMCA safe harbors'
+  - 'ensure our SaaS terms include necessary disclaimers of warranties and liability caps'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement operational data mapping, retention schedules, and DSAR requests'
+    expect: 'data-privacy'
+  - prompt: 'draft formal B2B Master Services Agreements and Statements of Work'
+    expect: 'contract-drafting'
+  - prompt: 'handle company incorporation and founder vesting agreements'
+    expect: 'company-formation'

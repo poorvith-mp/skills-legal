@@ -1,7 +1,10 @@
 ---
 name: regulatory-compliance
+group: Compliance
 description: >-
-  Map regulatory requirements to controls across fintech, healthcare and data privacy, and check an operation against them.
+  Map regulatory requirements to controls across fintech, healthcare and data privacy, and check
+  an operation against them. Use when mapping regulatory frameworks, fintech, HIPAA, or compliance
+  audits.
 ---
 # Regulatory Compliance
 

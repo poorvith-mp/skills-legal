@@ -1,7 +1,9 @@
 ---
 name: company-formation
+group: Company
 description: >-
-  Choose the entity, handle incorporation, founder agreements, vesting schedules and IP assignment.
+  Choose the entity, handle incorporation, founder agreements, vesting schedules and IP
+  assignment. Use when incorporating Delaware C-Corps, founder vesting, or 83(b) filings.
 ---
 # Company Formation
 

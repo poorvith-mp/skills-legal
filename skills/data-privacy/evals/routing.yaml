@@ -1,7 +1,16 @@
 should_fire:
-  - "help with data privacy"
-  - "run the privacy programme"
-  - "run data-privacy workflow"
+  - 'create a data mapping register (RoPA) tracking where customer personal data is stored'
+  - 'design a standard procedure for responding to Data Subject Access Requests (DSARs)'
+  - 'handle a user ''right to be forgotten'' deletion request across databases and backups'
+  - 'establish data retention schedules and automated data minimization policies'
+  - 'draft an incident response protocol for reporting data breaches to supervisory authorities'
+  - 'conduct a Data Protection Impact Assessment (DPIA) for a new AI feature'
+  - 'evaluate lawful basis for data processing under GDPR: consent vs legitimate interests'
+  - 'audit third-party sub-processors for compliant international data transfer mechanisms'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write the public-facing website privacy policy disclosure document'
+    expect: 'legal-documents'
+  - prompt: 'configure cloud security perimeters and IAM access policies in AWS'
+    expect: 'cloud-security'
+  - prompt: 'design responsible-AI bias auditing and model risk frameworks'
+    expect: 'ai-governance'

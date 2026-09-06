@@ -1,7 +1,9 @@
 ---
 name: employment-law
+group: Company
 description: >-
-  Get hiring right: contractor versus employee classification, offer terms, non-competes and multi-jurisdiction rules.
+  Get hiring right: contractor vs employee classification, offer terms, and non-competes. Use when
+  hiring employees, contractors, or writing offer terms.
 ---
 # Employment Law
 

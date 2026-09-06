@@ -1,7 +1,9 @@
 ---
 name: esg-reporting
+group: Compliance
 description: >-
-  Build ESG reporting: materiality assessment, metrics and disclosure frameworks.
+  Build ESG reporting: materiality assessment, metrics and disclosure frameworks. Use when
+  compiling ESG disclosures, carbon accounting, or sustainability reports.
 ---
 # ESG Reporting
 

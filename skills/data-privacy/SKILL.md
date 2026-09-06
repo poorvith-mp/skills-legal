@@ -1,7 +1,9 @@
 ---
 name: data-privacy
+group: Product and website
 description: >-
-  Run the privacy programme: data mapping, lawful basis, DSAR handling, retention schedules and breach response.
+  Run the privacy programme: data mapping, lawful basis, DSAR handling, retention schedules and
+  breach response. Use when managing GDPR/CCPA compliance, DSAR requests, or data mapping.
 ---
 # Data Privacy
 

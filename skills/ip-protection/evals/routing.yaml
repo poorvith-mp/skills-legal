@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ip protection"
-  - "protect the work"
-  - "run ip-protection workflow"
+  - 'conduct a trademark clearance search to see if our brand name is available to register'
+  - 'file a trademark application with the USPTO under appropriate commercial goods/services classes'
+  - 'protect proprietary algorithms and secret sauce using trade secret legal safeguards'
+  - 'draft comprehensive intellectual property assignment agreements for contractors and employees'
+  - 'handle a competitor infringing on our registered brand name or logo'
+  - 'draft a DMCA takedown notice to remove stolen proprietary software code or content'
+  - 'protect copyright ownership over original software code, documentation, and designs'
+  - 'audit company IP assets to ensure chain of title is clean before an acquisition'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'choose an open-source software license (MIT, Apache, GPL) for a repo'
+    expect: 'open-source-licensing'
+  - prompt: 'brainstorm creative product names and available domain names'
+    expect: 'naming'
+  - prompt: 'draft commercial Master Services Agreements and Statements of Work'
+    expect: 'contract-drafting'

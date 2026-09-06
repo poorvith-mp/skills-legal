@@ -1,7 +1,16 @@
 should_fire:
-  - "help with open source licensing"
-  - "choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they ship."
-  - "run open-source-licensing workflow"
+  - 'choose the right open-source license: MIT vs Apache 2.0 vs AGPL for our project'
+  - 'resolve copyleft licensing conflicts when using GPL-licensed libraries in commercial SaaS'
+  - 'audit our npm and Python dependencies for viral open-source license violations'
+  - 'draft a CONTRIBUTING license agreement (CLA) or Developer Certificate of Origin (DCO)'
+  - 'understand obligations when distributing software containing LGPL or BSD components'
+  - 'can we use an AGPL-licensed database behind our proprietary SaaS API without open-sourcing code'
+  - 'create a third-party open-source license attribution notice file for our commercial build'
+  - 'transition a closed-source proprietary repository to open source safely without leaking keys'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'scan dependencies for known CVE security vulnerabilities and exploits'
+    expect: 'dependency-audit'
+  - prompt: 'register brand trademarks with the USPTO'
+    expect: 'ip-protection'
+  - prompt: 'write repository README and setup documentation for contributors'
+    expect: 'repo-docs'

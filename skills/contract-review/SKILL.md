@@ -1,7 +1,9 @@
 ---
 name: contract-review
+group: Contracts
 description: >-
-  Read someone else's paper: explain clauses plainly, flag the risk and propose amendments that protect you.
+  Read someone else's paper: explain clauses plainly, flag the risk and propose amendments that
+  protect you. Use when reviewing third-party contracts, vendor paper, or redlining clauses.
 ---
 # Contract Review
 

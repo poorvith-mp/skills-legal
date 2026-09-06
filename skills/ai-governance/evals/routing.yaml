@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ai governance"
-  - "design responsible-ai policy, model risk assessment, bias auditing and human-in-the-loop controls."
-  - "run ai-governance workflow"
+  - 'ensure our AI application complies with the European Union AI Act risk categories'
+  - 'design an internal corporate policy governing employee usage of generative AI tools'
+  - 'conduct algorithmic bias audits and demographic fairness assessments on our model'
+  - 'establish human-in-the-loop oversight requirements for automated high-stakes decisions'
+  - 'document training data provenance, copyright risk, and model limitations in AI model cards'
+  - 'build an AI risk management framework aligned with the NIST AI Risk Management Framework'
+  - 'disclose AI-generated content transparently to end users in compliance with emerging regulations'
+  - 'audit generative AI features for hallucination, defamation, and liability risks before launch'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'implement prompt injection defenses and technical agent sandboxing'
+    expect: 'agent-safety'
+  - prompt: 'audit machine learning models technically for data leakage and baseline replication'
+    expect: 'model-audit'
+  - prompt: 'navigate general healthcare HIPAA and fintech regulatory compliance'
+    expect: 'regulatory-compliance'

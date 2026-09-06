@@ -1,7 +1,16 @@
 should_fire:
-  - "help with company formation"
-  - "choose the entity, handle incorporation, founder agreements, vesting schedules and ip assignment."
-  - "run company-formation workflow"
+  - 'evaluate whether to incorporate as a Delaware C-Corporation or an LLC for our startup'
+  - 'draft a founder stock purchase agreement with 4-year vesting and a 1-year cliff'
+  - 'prepare proprietary information and inventions assignment agreements (PIIA) for founders'
+  - 'structure founder equity split, voting rights, and board seat allocation'
+  - 'file IRS Section 83(b) elections within the strict 30-day deadline following stock grant'
+  - 'draft initial corporate bylaws and organizational board consent resolutions'
+  - 'set up an initial authorized common stock and preferred stock share pool'
+  - 'navigate foreign qualification to do business in the state where founders reside'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'model dilution and cap table waterfalls for an upcoming funding round'
+    expect: 'cap-table'
+  - prompt: 'navigate contractor vs employee legal classification and offer letters'
+    expect: 'employment-law'
+  - prompt: 'manage venture capital term sheet negotiations and investor due diligence'
+    expect: 'fundraising'

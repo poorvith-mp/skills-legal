@@ -1,7 +1,16 @@
 should_fire:
-  - "help with employment law"
-  - "get hiring right"
-  - "run employment-law workflow"
+  - 'determine whether a worker should be legally classified as a 1099 contractor or W-2 employee'
+  - 'draft an executive employment offer letter with at-will clauses and benefit terms'
+  - 'evaluate enforceability of employee non-compete and non-solicitation clauses in California'
+  - 'navigate multi-state employment compliance for a fully remote engineering team'
+  - 'draft a compliant severance agreement and release of claims for an employee departure'
+  - 'structure an employee handbook outlining PTO, parental leave, and workplace policies'
+  - 'handle an employee discrimination or harassment complaint according to legal standards'
+  - 'ensure compliance with overtime pay exemptions (FLSA exempt vs non-exempt status)'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write attractive job descriptions to source candidate applications'
+    expect: 'job-descriptions'
+  - prompt: 'design structured behavioral interview scorecards and hiring rubrics'
+    expect: 'hiring'
+  - prompt: 'draft founder stock purchase and corporate incorporation agreements'
+    expect: 'company-formation'

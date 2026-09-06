@@ -1,7 +1,16 @@
 should_fire:
-  - "help with contract drafting"
-  - "draft the agreements a small company signs"
-  - "run contract-drafting workflow"
+  - 'draft a mutual Non-Disclosure Agreement (NDA) for technical partnership discussions'
+  - 'create a standard Master Services Agreement (MSA) template for our software agency'
+  - 'draft an Independent Contractor Agreement with clear IP assignment and payment milestones'
+  - 'author a formal Statement of Work (SOW) outlining deliverables and acceptance testing'
+  - 'draft a Consulting Agreement with non-solicitation and confidentiality provisions'
+  - 'write an enterprise Service Level Agreement (SLA) with uptime tiers and service credits'
+  - 'draft a software licensing agreement granting a non-exclusive commercial license'
+  - 'create an amendment addendum modifying the payment schedule of an existing agreement'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'review and redline third-party contracts provided by another party'
+    expect: 'contract-review'
+  - prompt: 'draft website terms of service, cookie policies, and privacy notices'
+    expect: 'legal-documents'
+  - prompt: 'draft founder equity agreements and company incorporation documents'
+    expect: 'company-formation'

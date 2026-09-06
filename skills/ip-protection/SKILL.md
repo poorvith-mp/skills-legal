@@ -1,7 +1,9 @@
 ---
 name: ip-protection
+group: Intellectual property
 description: >-
-  Protect the work: trademark strategy, copyright, trade secrets and IP assignment clauses that actually hold.
+  Protect the work: trademark strategy, copyright, trade secrets and IP assignment clauses that
+  actually hold. Use when protecting trademarks, copyrights, trade secrets, or IP assignment.
 ---
 # Ip Protection
 

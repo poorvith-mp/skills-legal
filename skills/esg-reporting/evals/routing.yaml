@@ -1,7 +1,16 @@
 should_fire:
-  - "help with esg reporting"
-  - "build esg reporting"
-  - "run esg-reporting workflow"
+  - 'compile an annual Environmental, Social, and Governance (ESG) report for stakeholders'
+  - 'conduct a double materiality assessment identifying sustainability risks and impacts'
+  - 'calculate Scope 1, Scope 2, and Scope 3 greenhouse gas emissions for our organization'
+  - 'align our sustainability disclosures with CSRD, GRI, and SASB reporting standards'
+  - 'track diversity, equity, and inclusion (DEI) metrics across hiring and leadership'
+  - 'establish verifiable corporate carbon reduction targets and renewable energy milestones'
+  - 'prepare ESG evidence for institutional investors and sustainable financing covenants'
+  - 'audit supply chain suppliers for ethical labor practices and environmental compliance'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'compile company operational KPI scorecards for executive syncs'
+    expect: 'internal-reporting'
+  - prompt: 'prepare corporate quarterly board of directors meeting decks'
+    expect: 'board-reporting'
+  - prompt: 'navigate general fintech and healthcare regulatory compliance'
+    expect: 'regulatory-compliance'
