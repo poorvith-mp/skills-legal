@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ai governance"
+  - "design responsible-ai policy, model risk assessment, bias auditing and human-in-the-loop controls."
+  - "run ai-governance workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

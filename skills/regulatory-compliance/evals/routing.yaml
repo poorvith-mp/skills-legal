@@ -1,0 +1,7 @@
+should_fire:
+  - "help with regulatory compliance"
+  - "map regulatory requirements to controls across fintech, healthcare and data privacy, and check an operation against them."
+  - "run regulatory-compliance workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

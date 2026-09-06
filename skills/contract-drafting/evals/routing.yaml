@@ -1,0 +1,7 @@
+should_fire:
+  - "help with contract drafting"
+  - "draft the agreements a small company signs"
+  - "run contract-drafting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

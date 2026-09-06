@@ -1,0 +1,7 @@
+should_fire:
+  - "help with legal documents"
+  - "draft and review terms of service, privacy policy, dpa, cookie and refund notices for the jurisdictions you operate in."
+  - "run legal-documents workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

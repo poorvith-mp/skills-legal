@@ -1,0 +1,7 @@
+should_fire:
+  - "help with employment law"
+  - "get hiring right"
+  - "run employment-law workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

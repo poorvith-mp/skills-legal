@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ip protection"
+  - "protect the work"
+  - "run ip-protection workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

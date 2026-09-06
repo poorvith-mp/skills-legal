@@ -1,0 +1,7 @@
+should_fire:
+  - "help with data privacy"
+  - "run the privacy programme"
+  - "run data-privacy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

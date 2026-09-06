@@ -1,0 +1,7 @@
+should_fire:
+  - "help with contract review"
+  - "read someone else's paper"
+  - "run contract-review workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

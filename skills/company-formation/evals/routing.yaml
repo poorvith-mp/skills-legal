@@ -1,0 +1,7 @@
+should_fire:
+  - "help with company formation"
+  - "choose the entity, handle incorporation, founder agreements, vesting schedules and ip assignment."
+  - "run company-formation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

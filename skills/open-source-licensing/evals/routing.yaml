@@ -1,0 +1,7 @@
+should_fire:
+  - "help with open source licensing"
+  - "choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they ship."
+  - "run open-source-licensing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
