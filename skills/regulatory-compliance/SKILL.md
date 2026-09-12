@@ -1,5 +1,6 @@
 ---
 name: regulatory-compliance
+last_reviewed: 2026-09-06
 group: Compliance
 description: >-
   Map regulatory requirements to controls across fintech, healthcare and data privacy, and check

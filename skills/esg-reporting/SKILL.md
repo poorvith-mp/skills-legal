@@ -1,5 +1,6 @@
 ---
 name: esg-reporting
+last_reviewed: 2026-09-06
 group: Compliance
 description: >-
   Build ESG reporting: materiality assessment, metrics and disclosure frameworks. Use when

@@ -1,5 +1,6 @@
 ---
 name: open-source-licensing
+last_reviewed: 2026-09-06
 group: Intellectual property
 description: >-
   Choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they

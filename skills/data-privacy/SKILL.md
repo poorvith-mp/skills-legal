@@ -1,5 +1,6 @@
 ---
 name: data-privacy
+last_reviewed: 2026-09-06
 group: Product and website
 description: >-
   Run the privacy programme: data mapping, lawful basis, DSAR handling, retention schedules and

@@ -1,5 +1,6 @@
 ---
 name: contract-review
+last_reviewed: 2026-09-06
 group: Contracts
 description: >-
   Read someone else's paper: explain clauses plainly, flag the risk and propose amendments that

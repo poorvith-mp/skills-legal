@@ -1,5 +1,6 @@
 ---
 name: legal-documents
+last_reviewed: 2026-09-06
 group: Product and website
 description: Draft and review terms of service, DPAs, and cookie notices for your jurisdictions. For GDPR compliance, see data-privacy. Use when drafting website terms of service or privacy policies.
 ---

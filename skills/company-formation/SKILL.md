@@ -1,5 +1,6 @@
 ---
 name: company-formation
+last_reviewed: 2026-09-06
 group: Company
 description: Choose the entity, handle incorporation, founder agreements, and vesting schedules. For tax modeling, see tax-strategy. Use when incorporating Delaware C-Corps or 83(b) filings.
 ---

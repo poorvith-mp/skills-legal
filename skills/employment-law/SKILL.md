@@ -1,5 +1,6 @@
 ---
 name: employment-law
+last_reviewed: 2026-09-06
 group: Company
 description: >-
   Get hiring right: contractor vs employee classification, offer terms, and non-competes. Use when

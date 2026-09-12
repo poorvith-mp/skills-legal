@@ -1,5 +1,6 @@
 ---
 name: ai-governance
+last_reviewed: 2026-09-06
 group: Compliance
 description: Design responsible-AI policy, model risk assessment, bias auditing and EU AI Act controls. For code audits, see model-audit. Use when designing responsible-AI policies or compliance.
 ---

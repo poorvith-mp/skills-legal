@@ -1,5 +1,6 @@
 ---
 name: ip-protection
+last_reviewed: 2026-09-06
 group: Intellectual property
 description: >-
   Protect the work: trademark strategy, copyright, trade secrets and IP assignment clauses that

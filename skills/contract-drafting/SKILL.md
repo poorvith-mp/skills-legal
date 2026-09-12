@@ -1,5 +1,6 @@
 ---
 name: contract-drafting
+last_reviewed: 2026-09-06
 group: Contracts
 description: >-
   Draft the agreements a small company signs: NDA, MSA, SOW, contractor and consulting terms. Use
